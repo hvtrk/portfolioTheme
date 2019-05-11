@@ -85,6 +85,7 @@ import { CdkTreeModule } from '@angular/cdk/tree';
     MatTabsModule,
     MatTooltipModule,
     MatTreeModule,
+    MatGridListModule
   ],
   exports: [
     MatButtonModule,
@@ -129,6 +130,7 @@ import { CdkTreeModule } from '@angular/cdk/tree';
     CdkStepperModule,
     CdkTableModule,
     CdkTreeModule,
+    MatGridListModule
   ]
 })
 export class SharedModule { }

@@ -1,28 +1,11 @@
-<div class="container" [class.is-mobile]="mobileQuery.matches">
-    <mat-toolbar color="primary" class="toolbar">
-        <h1 class="app-name">Rahul Kumar</h1>
-        <span class="spacer"></span>
-        <div class="menuItem">
-            <span class="sp1" >
-                <a [routerLink]="[ '/home']">Home</a>
-            </span>
-            <span class="sp1" >
-                <a [routerLink]="[ '/projects']">Projects</a>
-            </span>
-            <span class="sp1" >
-                <a [routerLink]="[ '/about']">About</a>
-            </span>
-            <span class="sp1" >
-                <a [routerLink]="[ '/contact']">Contact Me</a>
-            </span>
-        </div>
-        <!-- <button mat-button [matMenuTriggerFor]="menu">Menu</button>
-        <mat-menu #menu="matMenu">
-            <button mat-menu-item>Item 1</button>
-            <button mat-menu-item>Item 2</button>
-        </mat-menu> -->
-    </mat-toolbar>
-</div>
+<mat-toolbar color="primary" class="toolbar">
+    <a [routerLink]="[ '' ]">Rahul Kumar</a>
+    <span class="spacer"></span>
+    <button mat-button [routerLink]="[ '' ]">Home</button>
+    <button mat-button [routerLink]="[ '/work']">Projects</button>
+    <button mat-button [routerLink]="[ '/about']">About</button>
+    <button mat-button [routerLink]="[ '/contact']">Contact Me</button>
+</mat-toolbar>
 <div>
     <router-outlet></router-outlet>
 </div>

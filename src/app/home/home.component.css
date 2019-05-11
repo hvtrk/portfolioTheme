@@ -1,1 +1,69 @@
-    
+.display-card {
+    background-image: url('../../assets/images/mainBackground.jpg');
+    height: 40.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#1{
+    padding: 0;
+    margin: 0;
+}
+
+.image-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 5rem 0 0 0;
+}
+
+.image-profile img{
+    padding: 0;
+    margin: 0;
+    width: 18rem;
+}
+
+.bottom-btn{
+    margin: 0;
+    padding: 0;
+}
+
+.display-name{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0rem 0rem 1rem 0rem !important;
+    text-align: center;
+    background-color: #085f63;
+    /* border-top-right-radius: 40%; */
+    /* border-top-left-radius: 15%; */
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; 
+    color: #facf5a;
+} 
+.display-name h1 {
+    font-family: 2.5rem;
+    font-weight: bold;
+}
+.display-name .span{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+h1 {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.bottom-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
